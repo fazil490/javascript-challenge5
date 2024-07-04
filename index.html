@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Countries</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <h2 class="title" id="title">World Countries Data</h2>
+      <p class="desc" id="desc">Currently, We have 250 Countries</p>
+      <input
+        type="text"
+        class="search-input"
+        id="search-input"
+        placeholder="Search countries..."
+      />
+    </header>
+    <main class="main-sec" id="main-sec">
+      <div class="btns" id="btns">
+        <button class="btn" id="btn-name-filter">Name</button>
+        <button class="btn" id="btn-capital-filter">Capital</button>
+        <button class="btn" id="btn-pop-filter">Population</button>
+        <button class="btn" id="btn-population">|||</button>
+      </div>
+      <section class="countries-sec" id="countries-sec"></section>
+      <section class="population-sec" id="population-sec"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

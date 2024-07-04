@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  letter-spacing: 10px;
+  margin: 1rem 0;
+}
+
+.search-input {
+  width: 23%;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.3rem 2rem;
+  margin: 0 1em;
+  background-color: lightblue;
+  border: none;
+  border-radius: 1rem;
+}
+.btn:active {
+  opacity: 90%;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+#btn-population {
+  padding: 0.3rem 1rem;
+}
+
+.countries-sec {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.country-div {
+  width: 170px;
+}
+
+.country-div img {
+  width: 100%;
+  height: 100px;
+}
+
+.name {
+  color: lightseagreen;
+  font-size: 17px;
+  padding: 1rem 0;
+}
+
+.details p {
+  margin: 10px 0;
+}
+
+.population-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.country-name {
+  width: 20%;
+}
+.population-bar-container {
+width: 60%;
+}
+.population-bar {
+padding: 1rem 0;
+background-color: lightblue;
+margin-right: 23px;
+}
+.population-value {
+width: 20%;
+margin-left: 1rem;
+}
